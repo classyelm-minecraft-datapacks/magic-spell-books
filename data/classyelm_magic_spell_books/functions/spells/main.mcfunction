@@ -19,24 +19,24 @@ scoreboard players set @s[nbt={SelectedItem:{tag:{spellID:16}}}] msbv2xhsid 16
 scoreboard players set @s[nbt={SelectedItem:{tag:{spellID:17}}}] msbv2xhsid 17
 
 #Run Magic Effects
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=0,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/fireball
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=1,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/luminosity
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=2,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/terraform
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=3,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/reprisal
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=4,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/gust
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=5,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/flame_ring
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=6,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/ice_shackle
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=7,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/lurid_explosion
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=8,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/celerity_cloak
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=9,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/cosmic_matter
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=10,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/updraft
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=11,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/electric_surge
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=12,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/hurricane
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=13,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/fire_blast
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=14,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/aqua_eruption
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=15,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/respiration
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=16,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/dirt_obstruction
-execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=17,msbv2xrcd=1..}] run function classyelm_magic_spell_books:functions/spells/dark_orb
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=0,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/fireball
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=1,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/luminosity
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=2,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/terraform
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=3,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/reprisal
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=4,msbv2xrcd=1..}] at @s run function classyelm_magic_spell_books:spells/gust
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=5,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/flame_ring
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=6,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/ice_shackle
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=7,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/lurid_explosion
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=8,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/celerity_cloak
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=9,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/cosmic_matter
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=10,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/updraft
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=11,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/electric_surge
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=12,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/hurricane
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=13,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/fire_blast
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=14,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/aqua_eruption
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=15,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/respiration
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=16,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/dirt_obstruction
+execute as @s[tag=MSBv2xHS,scores={msbv2xhsid=17,msbv2xrcd=1..}] run function classyelm_magic_spell_books:spells/dark_orb
 
 #Play Insufficient Mana Sounds
 execute as @s[tag=MSBv2xIM] run playsound entity.bat.loop player @p ~ ~ ~ 100 2
@@ -64,8 +64,12 @@ tag @s[gamemode=!creative,scores={msbv2xhsid=17,msbv2xrcd=1..}] add MSBv2xGS17
 scoreboard players remove @s[scores={msbv2xrcd=1..}] msbv2xrcd 1
 
 #Spell Effect Extra Actions
-function classyelm_magic_spell_books:functions/spells/spell_effects
+function classyelm_magic_spell_books:spells/spell_effects
 
 #Determine if player is holding spell book
 tag @s remove MSBv2xHS
 tag @s[nbt={SelectedItem:{tag:{isSpell:1b}}}] add MSBv2xHS
+
+# Increment kill timer for marked entities (kill after 5 seconds as failsafe)
+scoreboard players add @e[tag=msbv2xkte] msbv2xmkt 1
+kill @e[tag=msbv2xkte,scores={msbv2xmkt=100..}]

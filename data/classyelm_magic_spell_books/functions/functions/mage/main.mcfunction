@@ -1,3 +1,0 @@
-#Run Other Functions within Directory
-function classyelm_magic_spell_books:functions/mage/spawn
-function classyelm_magic_spell_books:functions/mage/next_trade
