@@ -1,0 +1,8 @@
+#List of all items
+function classyelm_magic_spell_books:functions/give/spawn_egg/air_mage
+function classyelm_magic_spell_books:functions/give/spawn_egg/dark_mage
+function classyelm_magic_spell_books:functions/give/spawn_egg/earth_mage
+function classyelm_magic_spell_books:functions/give/spawn_egg/fire_mage
+function classyelm_magic_spell_books:functions/give/spawn_egg/light_mage
+function classyelm_magic_spell_books:functions/give/spawn_egg/water_mage
+function classyelm_magic_spell_books:functions/give/spawn_egg/alchemist

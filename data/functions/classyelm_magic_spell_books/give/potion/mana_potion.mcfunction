@@ -1,2 +1,0 @@
-#Give Mana Potion
-give @s potion 1 0 {manaPotion:1b,isSpell:1b,display:{LocName:"Potion of Mana",Lore:["Drink to restore 6 mana points"]},Potion:"water",ench:[{id:0,lvl:0}],HideFlags:33,CustomPotionColor:102}

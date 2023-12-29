@@ -1,0 +1,2 @@
+#Give Dark Mage Spawn Egg
+give @s villager_spawn_egg{display:{Name:"{\"text\":\"Spawn Dark Mage\",\"italic\":\"false\"}"},EntityTag:{id:villager,CustomName:"{\"text\":\"Dark Mage\"}",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"iron_ingot",Count:8},buyB:{id:"ender_eye",Count:1},sell:{id:"knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:7,display:{Name:"{\"text\":\"Lurid Explosion Spell Book\",\"italic\":\"false\"}",Lore:["Right-click to use","Costs 4 mana"]},Enchantments:[{id:protection,lvl:0s}],HideFlags:1}}}]}}}

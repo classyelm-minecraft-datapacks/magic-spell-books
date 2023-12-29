@@ -1,0 +1,2 @@
+#Give Earth Mage Spawn Egg
+give @s villager_spawn_egg{display:{Name:"{\"text\":\"Spawn Earth Mage\",\"italic\":\"false\"}"},EntityTag:{id:villager,CustomName:"{\"text\":\"Earth Mage\"}",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"iron_ingot",Count:8},buyB:{id:"coarse_dirt",Count:4},sell:{id:"knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:2,display:{Name:"{\"text\":\"Terraform Spell Book\",\"italic\":\"false\"}",Lore:["Right-click to use","Costs 3 mana"]},Enchantments:[{id:protection,lvl:0s}],HideFlags:1}}}]}}}

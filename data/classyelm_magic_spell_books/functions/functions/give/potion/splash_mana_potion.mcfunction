@@ -1,0 +1,2 @@
+#Give Splash Mana Potion
+give @s splash_potion{splashManaPotion:1b,isSpell:1b,display:{Name:"{\"text\":\"Splash Potion of Mana\",\"italic\":\"false\"}",Lore:["Throw to restore 3 mana points"]},Potion:"water",Enchantments:[{id:protection,lvl:0}],HideFlags:33,CustomPotionColor:102}
