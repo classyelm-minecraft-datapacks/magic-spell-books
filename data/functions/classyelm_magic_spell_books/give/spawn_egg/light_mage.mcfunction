@@ -1,0 +1,2 @@
+#Give Light Mage Spawn Egg
+give @s spawn_egg 1 0 {display:{LocName:"Spawn Light Mage"},EntityTag:{id:villager,CustomName:"Light Mage",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"iron_ingot",Count:8},buyB:{id:"glowstone_dust",Count:4},sell:{id:"knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:1,display:{LocName:"Luminosity Spell Book",Lore:["Right-click to use","Costs 1 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}}

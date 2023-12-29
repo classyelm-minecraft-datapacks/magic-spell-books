@@ -1,0 +1,2 @@
+#Give Air Mage Spawn Egg
+give @s spawn_egg 1 0 {display:{LocName:"Spawn Air Mage"},EntityTag:{id:villager,CustomName:"Air Mage",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"iron_ingot",Count:8},buyB:{id:"feather",Count:8},sell:{id:"knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:10,display:{LocName:"Updraft Spell Book",Lore:["Right-click to use","Costs 2 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}}

@@ -1,0 +1,2 @@
+#Give Water Mage Spawn Egg
+give @s spawn_egg 1 0 {display:{LocName:"Spawn Water Mage"},EntityTag:{id:villager,CustomName:"Water Mage",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"iron_ingot",Count:8},buyB:{id:"prismarine_crystals",Count:1},sell:{id:"knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:15,display:{LocName:"Respiration Spell Book",Lore:["Right-click to use","Costs 9 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}}

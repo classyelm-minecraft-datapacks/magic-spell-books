@@ -1,0 +1,67 @@
+#Update Mage Trades After Trading
+
+#Earth Mage
+#Update 1
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xemvt1 {Offers:{Recipes:[{uses:1,buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:dirt"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xemvt1] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:dirt",Damage:1,Count:4},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:2,display:{LocName:"Terraform Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:dirt",Damage:1,Count:8},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:16,display:{LocName:"Dirt Obstruction Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xemvt1] remove msbv2xemvt1
+
+#Update 2
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xemvt2 {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:dirt"},sell:{id:"minecraft:knowledge_book"}},{uses:1,buy:{id:"minecraft:gold_ingot"},buyB:{id:"minecraft:dirt"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xemvt2] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:dirt",Damage:1,Count:4},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:2,display:{LocName:"Terraform Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:dirt",Damage:1,Count:8},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:16,display:{LocName:"Dirt Obstruction Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:diamond",Count:2},buyB:{id:"minecraft:dirt",Damage:1,Count:16},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:3,display:{LocName:"Reprisal Spell Book",Lore:["Right-click to use","Costs 1 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xemvt2] remove msbv2xemvt2
+
+#Dark Mage
+#Update 1
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xdmvt1 {Offers:{Recipes:[{uses:1,buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:ender_eye"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xdmvt1] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:ender_eye",Count:1},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:7,display:{LocName:"Lurid Explosion Spell Book",Lore:["Right-click to use","Costs 4 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:ender_eye",Count:2},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:17,display:{LocName:"Dark Orb Spell Book",Lore:["Right-click to use","Costs 6 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xdmvt1] remove msbv2xdmvt1
+
+#Update 2
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xdmvt2 {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:ender_eye"},sell:{id:"minecraft:knowledge_book"}},{uses:1,buy:{id:"minecraft:gold_ingot"},buyB:{id:"minecraft:ender_eye"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xdmvt2] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:ender_eye",Count:1},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:7,display:{LocName:"Lurid Explosion Spell Book",Lore:["Right-click to use","Costs 4 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:ender_eye",Count:2},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:17,display:{LocName:"Dark Orb Spell Book",Lore:["Right-click to use","Costs 6 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:diamond",Count:2},buyB:{id:"minecraft:ender_eye",Count:3},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:9,display:{LocName:"Cosmic Matter Spell Book",Lore:["Right-click to use","Costs 7 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xdmvt2] remove msbv2xdmvt2
+
+#Air Mage
+#Update 1
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xamvt1 {Offers:{Recipes:[{uses:1,buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:feather"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xamvt1] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:feather",Count:8},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:10,display:{LocName:"Updraft Spell Book",Lore:["Right-click to use","Costs 2 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:feather",Count:16},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:4,display:{LocName:"Gust Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xamvt1] remove msbv2xamvt1
+
+#Update 2
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xamvt2 {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:feather"},sell:{id:"minecraft:knowledge_book"}},{uses:1,buy:{id:"minecraft:gold_ingot"},buyB:{id:"minecraft:feather"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xamvt2] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:feather",Count:8},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:10,display:{LocName:"Updraft Spell Book",Lore:["Right-click to use","Costs 2 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:feather",Count:16},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:4,display:{LocName:"Gust Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:diamond",Count:2},buyB:{id:"minecraft:feather",Count:32},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:12,display:{LocName:"Hurricane Spell Book",Lore:["Right-click to use","Costs 10 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xamvt2] remove msbv2xamvt2
+
+#Fire Mage
+#Update 1
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xfmvt1 {Offers:{Recipes:[{uses:1,buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:fire_charge"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xfmvt1] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:fire_charge",Count:1},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:5,display:{LocName:"Flame Ring Spell Book",Lore:["Right-click to use","Costs 1 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:fire_charge",Count:2},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:0,display:{LocName:"Fireball Spell Book",Lore:["Right-click to use","Costs 4 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xfmvt1] remove msbv2xfmvt1
+
+#Update 2
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xfmvt2 {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:fire_charge"},sell:{id:"minecraft:knowledge_book"}},{uses:1,buy:{id:"minecraft:gold_ingot"},buyB:{id:"minecraft:fire_charge"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xfmvt2] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:fire_charge",Count:1},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:5,display:{LocName:"Flame Ring Spell Book",Lore:["Right-click to use","Costs 1 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:fire_charge",Count:2},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:0,display:{LocName:"Fireball Spell Book",Lore:["Right-click to use","Costs 4 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:diamond",Count:2},buyB:{id:"minecraft:fire_charge",Count:3},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:13,display:{LocName:"Fire Blast Spell Book",Lore:["Right-click to use","Costs 7 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xfmvt2] remove msbv2xfmvt2
+
+#Light Mage
+#Update 1
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xlmvt1 {Offers:{Recipes:[{uses:1,buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:glowstone_dust"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xlmvt1] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:glowstone_dust",Count:4},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:1,display:{LocName:"Luminosity Spell Book",Lore:["Right-click to use","Costs 1 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:glowstone_dust",Count:8},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:8,display:{LocName:"Celerity Cloak Spell Book",Lore:["Right-click to use","Costs 2 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xlmvt1] remove msbv2xlmvt1
+
+#Update 2
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xlmvt2 {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:glowstone_dust"},sell:{id:"minecraft:knowledge_book"}},{uses:1,buy:{id:"minecraft:gold_ingot"},buyB:{id:"minecraft:glowstone_dust"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xlmvt2] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:glowstone_dust",Count:4},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:1,display:{LocName:"Luminosity Spell Book",Lore:["Right-click to use","Costs 1 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:glowstone_dust",Count:8},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:8,display:{LocName:"Celerity Cloak Spell Book",Lore:["Right-click to use","Costs 2 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:diamond",Count:2},buyB:{id:"minecraft:glowstone_dust",Count:16},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:11,display:{LocName:"Electric Surge Spell Book",Lore:["Right-click to use","Costs 5 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xlmvt2] remove msbv2xlmvt2
+
+#Water Mage
+#Update 1
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xwmvt1 {Offers:{Recipes:[{uses:1,buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:prismarine_crystals"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xwmvt1] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:prismarine_crystals",Count:1},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:15,display:{LocName:"Respiration Spell Book",Lore:["Right-click to use","Costs 7 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:prismarine_crystals",Count:2},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:6,display:{LocName:"Ice Shackle Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xwmvt1] remove msbv2xwmvt1
+
+#Update 2
+scoreboard players tag @e[type=villager,tag=msbv2xmv] add msbv2xwmvt2 {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot"},buyB:{id:"minecraft:prismarine_crystals"},sell:{id:"minecraft:knowledge_book"}},{uses:1,buy:{id:"minecraft:gold_ingot"},buyB:{id:"minecraft:prismarine_crystals"},sell:{id:"minecraft:knowledge_book"}}]}}
+entitydata @e[tag=msbv2xwmvt2] {Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"minecraft:prismarine_crystals",Count:1},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:15,display:{LocName:"Respiration Spell Book",Lore:["Right-click to use","Costs 7 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:gold_ingot",Count:4},buyB:{id:"minecraft:prismarine_crystals",Count:2},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:6,display:{LocName:"Ice Shackle Spell Book",Lore:["Right-click to use","Costs 3 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}},{buy:{id:"minecraft:diamond",Count:2},buyB:{id:"minecraft:prismarine_crystals",Count:3},sell:{id:"minecraft:knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:14,display:{LocName:"Aqua Eruption Spell Book",Lore:["Right-click to use","Costs 8 mana"]},ench:[{id:0s,lvl:0s}],HideFlags:1}}}]}}
+scoreboard players tag @e[tag=msbv2xwmvt2] remove msbv2xwmvt2

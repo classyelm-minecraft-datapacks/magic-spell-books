@@ -1,0 +1,99 @@
+{
+	"pools":
+	[
+		{
+			"rolls": 1,
+			"entries":
+			[
+				{
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{spawnMage:1b,mageType:\"earth\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{spawnMage:1b,mageType:\"dark\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{spawnMage:1b,mageType:\"air\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{spawnMage:1b,mageType:\"fire\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{spawnMage:1b,mageType:\"light\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{spawnMage:1b,mageType:\"water\"}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:dirt",
+					"weight": 1,
+					"functions":
+					[
+						{
+							"function": "set_nbt",
+							"tag": "{spawnMage:1b,mageType:\"potion\"}"
+						}
+					]
+				},
+				{
+					"type": "empty",
+					"weight": 63
+				}
+			]
+		}
+	]
+}
