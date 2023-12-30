@@ -41,4 +41,4 @@ execute at @s run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 coarse_dirt replace oxeye_daisy
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 coarse_dirt replace rose_bush
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 coarse_dirt replace peony
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 coarse_dirt replace large_fern
-execute at @s run fill ~ ~ ~ ~ ~1 ~ air replace dirt
+execute at @s run fill ~ ~ ~ ~ ~1 ~ air replace coarse_dirt

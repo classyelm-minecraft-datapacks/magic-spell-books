@@ -12,8 +12,6 @@ execute as @s[scores={msbv2xmp=8..}] run summon falling_block ~ ~0.2 ~ {Time:1,D
 
 execute as @s[scores={msbv2xmp=8..}] run summon falling_block ~ ~1 ~ {Time:1,BlockState:{Name:"water"},Motion:[0d,0.3d,0d]}
 
-say @e[type=falling_block,nbt={BlockState:{Name:"minecraft:water"}}]
-
 tag @s[scores={msbv2xmp=..7}] add MSBv2xIM
 playsound entity.elder_guardian.curse player @s[scores={msbv2xmp=8..}] ~ ~ ~ 100 0
 scoreboard players remove @s[scores={msbv2xmp=8..}] msbv2xmp 8

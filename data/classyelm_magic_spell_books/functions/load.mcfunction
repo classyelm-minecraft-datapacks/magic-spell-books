@@ -16,6 +16,11 @@ scoreboard objectives add msbv2xdp minecraft.used:minecraft.potion
 scoreboard objectives add msbv2xsmpym dummy
 # Kill timer for miscellaneous entities
 scoreboard objectives add msbv2xmkt dummy
+# Objectives that track relative positioning for fireball spell
+scoreboard objectives add msbv2xfsx dummy
+scoreboard objectives add msbv2xfsy dummy
+scoreboard objectives add msbv2xfsz dummy
+scoreboard players set #negativeone msbv2xfsx -1
 
 # Give creative mode players manual on load/reload of datapack
 tag @a remove msbv2xgm

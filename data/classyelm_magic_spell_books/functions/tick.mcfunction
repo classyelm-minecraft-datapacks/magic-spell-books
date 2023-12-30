@@ -47,3 +47,5 @@ tag @a[tag=!msbv2xgm] add msbv2xgm
 #kte = kill timer entity
 #cgm = Creeper gust marker
 #gsie = gust spell ignored entity
+#fsm = fireball spell marker
+#fsf = fireball spell fireball (projectile)
