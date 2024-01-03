@@ -83,7 +83,7 @@ execute as @s[scores={msbv2xmp=3..}] as @e[type=villager,tag=!msbv2xiet,limit=1,
 execute as @s[scores={msbv2xmp=3..}] as @e[type=vindicator,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute as @s[scores={msbv2xmp=3..}] as @e[type=witch,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute as @s[scores={msbv2xmp=3..}] as @e[type=zombie,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=zombie_pigman,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=zombified_piglin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute as @s[scores={msbv2xmp=3..}] as @e[type=zombie_villager,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute as @s[scores={msbv2xmp=3..}] as @e[type=drowned,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute as @s[scores={msbv2xmp=3..}] at @a[tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
