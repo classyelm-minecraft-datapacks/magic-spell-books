@@ -1,46 +1,7 @@
 #Dirt Obstruction Spell Effects
 
 #Unaffected Entities
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=area_effect_cloud,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=armor_stand,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=arrow,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=boat,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=chest_minecart,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=command_block_minecart,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=dragon_fireball,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=egg,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=elder_guardian,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=end_crystal,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=ender_dragon,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=ender_pearl,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=evoker_fangs,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=eye_of_ender,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=falling_block,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=fireball,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=firework_rocket,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=furnace_minecart,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=ghast,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=giant,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=hopper_minecart,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=item,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=item_frame,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=leash_knot,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=lightning_bolt,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=llama_spit,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=minecart,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=painting,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=potion,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=shulker_bullet,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=small_fireball,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=snowball,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=spawner_minecart,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=spectral_arrow,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=tnt_minecart,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=vex,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=wither,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=wither_skull,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=experience_bottle,tag=msbv2xiet,distance=2..10] add msbv2xiet
-execute at @s[scores={msbv2xmp=3..}] run tag @e[type=experience_orb,tag=msbv2xiet,distance=2..10] add msbv2xiet
+execute at @s[scores={msbv2xmp=3..}] run tag @e[type=!#classyelm_magic_spell_books:nonmob-entities,tag=msbv2xiet,distance=2..10] add msbv2xiet
 
 #Determine Size of Slime/Magma Cube
 execute at @s[scores={msbv2xmp=3..}] run tag @e[tag=!msbv2xiet,distance=2..10,nbt={Size:0}] add msbv2xsize0
@@ -48,69 +9,86 @@ execute at @s[scores={msbv2xmp=3..}] run tag @e[tag=!msbv2xiet,distance=2..10,nb
 execute at @s[scores={msbv2xmp=3..}] run tag @e[tag=!msbv2xiet,distance=2..10,nbt={Size:3}] add msbv2xsize3
 
 #3x3x3 Entities
-execute as @s[scores={msbv2xmp=3..}] as @e[type=bat,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=cave_spider,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=chicken,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=endermite,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=ocelot,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=parrot,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=pig,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=rabbit,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=shulker,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=silverfish,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=squid,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=tnt,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=wolf,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=cod,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=pufferfish,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=salmon,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=tropical_fish,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:axolotl,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:bat,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:bee,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:cat,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:cave_spider,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:chicken,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:cod,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:endermite,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:fox,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:glow_squid,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:ocelot,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:parrot,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:pig,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:rabbit,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:shulker,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:silverfish,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:squid,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:tnt,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:wolf,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:cod,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:pufferfish,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:salmon,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:tropical_fish,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
 execute as @s[scores={msbv2xmp=3..}] as @e[tag=msbv2xsize0,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
 
 #3x4x3 Entities
-execute as @s[scores={msbv2xmp=3..}] as @e[type=blaze,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=cow,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=creeper,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=evoker,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=husk,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=illusioner,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=mooshroom,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=sheep,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=skeleton,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=snow_golem,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=stray,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=villager,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=vindicator,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=witch,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=zombie,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=zombified_piglin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=zombie_villager,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=drowned,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:blaze,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:cow,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:creeper,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:evoker,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:goat,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:husk,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:illusioner,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:mooshroom,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:piglin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:piglin_brute,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:pillager,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:sheep,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:skeleton,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:snow_golem,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:stray,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:villager,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:vindicator,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:wandering_trader,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:witch,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:zombie,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:zombified_piglin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:zombie_villager,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:drowned,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute as @s[scores={msbv2xmp=3..}] at @a[tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 
 #3x5x3 Entities
-execute as @s[scores={msbv2xmp=3..}] as @e[type=enderman,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x5x3
-execute as @s[scores={msbv2xmp=3..}] as @e[type=wither_skeleton,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x5x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:enderman,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x5x3
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:wither_skeleton,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x5x3
 
 #5x4x5 Entities
-execute as @s[scores={msbv2xmp=3..}] as @e[type=donkey,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=guardian,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=horse,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=llama,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=mule,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=polar_bear,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=skeleton_horse,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=zombie_horse,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=phantom,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=dolphin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:donkey,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:guardian,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:hoglin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:horse,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:llama,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:mule,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:panda,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:polar_bear,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:ravager,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:skeleton_horse,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:strider,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:trader_llama,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:zombie_horse,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:phantom,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:dolphin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:zoglin,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
 execute as @s[scores={msbv2xmp=3..}] as @e[tag=msbv2xsize1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x4x5
 
 #5x3x5 Entities
-execute as @s[scores={msbv2xmp=3..}] as @e[type=spider,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x3x5
-execute as @s[scores={msbv2xmp=3..}] as @e[type=turtle,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x3x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:spider,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x3x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:turtle,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x3x5
 
 #5x5x5 Entities
-execute as @s[scores={msbv2xmp=3..}] as @e[type=iron_golem,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x5x5
+execute as @s[scores={msbv2xmp=3..}] as @e[type=minecraft:iron_golem,tag=!msbv2xiet,limit=1,distance=2..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_5x5x5
 
 execute as @s[scores={msbv2xmp=3..}] run tag @e[tag=msbv2xiet,distance=2..10] remove msbv2xiet
 execute as @s[scores={msbv2xmp=3..}] run tag @e[tag=msbv2xsize0,distance=2..10] remove msbv2xsize0
