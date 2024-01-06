@@ -32,8 +32,10 @@
         "minecraft:end_crystal",
         "minecraft:evoker_fangs",
         "minecraft:eye_of_ender",
+        "minecraft:fishing_bobber",
         "minecraft:item_frame",
         "minecraft:leash_knot",
+        "minecraft:lightning_bolt",
         "minecraft:painting"
     ]
 }
