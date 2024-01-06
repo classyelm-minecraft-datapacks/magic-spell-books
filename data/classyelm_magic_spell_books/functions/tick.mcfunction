@@ -53,3 +53,4 @@ tag @a[tag=!msbv2xgm] add msbv2xgm
 #gsu = gust spell user
 #gspe = gust spell particle effect
 #gst = gust spell target
+#gspm = gust spell player mount

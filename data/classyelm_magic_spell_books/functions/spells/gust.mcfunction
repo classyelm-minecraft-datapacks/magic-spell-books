@@ -22,9 +22,11 @@ execute if entity @s[tag=msbv2xgsu,scores={msbv2xsy=40..}] run scoreboard player
 execute if entity @s[tag=msbv2xgsu] run kill @e[tag=msbv2xgsm,sort=nearest,limit=1]
 
 execute if entity @s[tag=msbv2xgsu] positioned ^ ^ ^4 as @e[type=!#classyelm_magic_spell_books:nonmob-entities,tag=!msbv2xgsu,distance=..4] run tag @s add msbv2xgst
-execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgst] store result entity @s Motion[0] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsx
-execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgst] store result entity @s Motion[1] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsy
-execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgst] store result entity @s Motion[2] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsz
+execute if entity @s[tag=msbv2xgsu] positioned ^ ^ ^4 as @e[type=minecraft:player,tag=!msbv2xgsu,distance=..4] at @s run summon minecraft:armor_stand ~ ~0.25 ~ {Small:1,Invisible:1,Tags:["msbv2xgspm","msbv2xkol","msbv2xgst"]}
+execute if entity @s[tag=msbv2xgsu] positioned ^ ^ ^4 as @e[type=minecraft:player,tag=!msbv2xgsu,distance=..4] at @s run ride @s mount @e[tag=msbv2xgspm,sort=nearest,limit=1]
+execute if entity @s[tag=msbv2xgsu] as @e[type=!minecraft:player,tag=msbv2xgst] store result entity @s Motion[0] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsx
+execute if entity @s[tag=msbv2xgsu] as @e[type=!minecraft:player,tag=msbv2xgst] store result entity @s Motion[1] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsy
+execute if entity @s[tag=msbv2xgsu] as @e[type=!minecraft:player,tag=msbv2xgst] store result entity @s Motion[2] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsz
 tag @e[tag=msbv2xgst] remove msbv2xgst
 
 tag @s[scores={msbv2xmp=..2}] add MSBv2xIM
