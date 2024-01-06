@@ -1,16 +1,16 @@
-#Flame Ring Spell Effects
-execute as @s[scores={msbv2xmp=1..}] run fill ~1 ~-2 ~3 ~-1 ~2 ~4 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~3 ~-2 ~-1 ~4 ~2 ~1 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~1 ~-2 ~-3 ~-1 ~2 ~-4 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~-3 ~-2 ~-1 ~-4 ~2 ~1 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~2 ~-2 ~2 ~3 ~2 ~2 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~2 ~-2 ~2 ~2 ~2 ~3 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~2 ~-2 ~-2 ~3 ~2 ~-2 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~2 ~-2 ~-2 ~2 ~2 ~-3 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~-2 ~-2 ~-2 ~-2 ~2 ~-3 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~-2 ~-2 ~-2 ~-3 ~2 ~-2 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~-2 ~-2 ~2 ~-2 ~2 ~3 fire[age=0] replace air
-execute as @s[scores={msbv2xmp=1..}] run fill ~-2 ~-2 ~2 ~-3 ~2 ~2 fire[age=0] replace air
-tag @s[scores={msbv2xmp=..0}] add MSBv2xIM
-playsound item.firecharge.use player @s[scores={msbv2xmp=1..}] ~ ~ ~ 100 0
-scoreboard players remove @s[scores={msbv2xmp=1..}] msbv2xmp 1
+# Flame Ring Spell Effects
+fill ~1 ~-2 ~3 ~-1 ~2 ~4 minecraft:fire replace air
+fill ~3 ~-2 ~-1 ~4 ~2 ~1 minecraft:fire replace air
+fill ~1 ~-2 ~-3 ~-1 ~2 ~-4 minecraft:fire replace air
+fill ~-3 ~-2 ~-1 ~-4 ~2 ~1 minecraft:fire replace air
+fill ~2 ~-2 ~2 ~3 ~2 ~2 minecraft:fire replace air
+fill ~2 ~-2 ~2 ~2 ~2 ~3 minecraft:fire replace air
+fill ~2 ~-2 ~-2 ~3 ~2 ~-2 minecraft:fire replace air
+fill ~2 ~-2 ~-2 ~2 ~2 ~-3 minecraft:fire replace air
+fill ~-2 ~-2 ~-2 ~-2 ~2 ~-3 minecraft:fire replace air
+fill ~-2 ~-2 ~-2 ~-3 ~2 ~-2 minecraft:fire replace air
+fill ~-2 ~-2 ~2 ~-2 ~2 ~3 minecraft:fire replace air
+fill ~-2 ~-2 ~2 ~-3 ~2 ~2 minecraft:fire replace air
+tag @s[scores={msbv2xmp=..0}] add msbv2xim
+playsound item.firecharge.use player @s ~ ~ ~ 100 0
+scoreboard players remove @s msbv2xmp 1

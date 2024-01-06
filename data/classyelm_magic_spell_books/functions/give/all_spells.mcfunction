@@ -1,4 +1,4 @@
-#List of all items
+# List of all items
 tag @s add MSBv2xGS0
 tag @s add MSBv2xGS1
 tag @s add MSBv2xGS2

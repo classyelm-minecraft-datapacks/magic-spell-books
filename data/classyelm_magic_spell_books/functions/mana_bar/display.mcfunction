@@ -1,4 +1,4 @@
-#Display Mana in Action Bar when player holds a spell book
+# Display Mana in Action Bar when player holds a spell book
 title @s[gamemode=!spectator,scores={msbv2xmp=..0}] actionbar {"text":"\u00A77❂❂❂❂❂❂❂❂❂❂"}
 title @s[gamemode=!spectator,scores={msbv2xmp=1}] actionbar {"text":"\u00A71❂\u00A77❂❂❂❂❂❂❂❂❂"}
 title @s[gamemode=!spectator,scores={msbv2xmp=2}] actionbar {"text":"\u00A71❂❂\u00A77❂❂❂❂❂❂❂❂"}

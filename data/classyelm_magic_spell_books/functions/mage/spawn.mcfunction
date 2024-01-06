@@ -1,10 +1,10 @@
-#Check New Villagers and Replace Percentage with Mage
+# Check New Villagers and Replace Percentage with Mage
 tag @e[type=villager,tag=!msbv2xvhbc,distance=..25,nbt={Age:0}] add msbv2xvntbc
-execute as @e[tag=msbv2xvntbc] as @s[tag=!msbv2xvhbc] at @s run summon minecraft:bat ~ ~ ~ {NoAI:1,DeathLootTable:"classyelm_magic_spell_books:classyelm_magic_spell_books_rng/1-100",Tags:["msbv2xvrng"],ActiveEffects:[{Id:14,Duration:40,ShowParticles:0b}],Silent:1,NoGravity:1}
+execute as @e[tag=msbv2xvntbc] as @s[tag=!msbv2xvhbc] at @s run loot spawn ~ ~ ~ loot classyelm_magic_spell_books:classyelm_magic_spell_books_rng/1-100
 execute as @e[tag=msbv2xvntbc] run tag @s[tag=!msbv2xvhbc] add msbv2xvhbc
 kill @e[type=minecraft:bat,tag=msbv2xvrng]
 
-#Detect Random Mage Type
+# Detect Random Mage Type
 tag @e[type=item,nbt={Item:{tag:{spawnMage:1b}}}] add msbv2xrvwm
 tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"earth"}}}] add msbv2xrvwem
 tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"dark"}}}] add msbv2xrvwdm
@@ -14,7 +14,7 @@ tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"light"}}}] add msbv2xrvwlm
 tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"water"}}}] add msbv2xrvwwm
 tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"potion"}}}] add msbv2xrvwpm
 
-#Spawn Mage
+# Spawn Mage
 execute as @e[tag=msbv2xrvwem] at @s as @e[type=villager,limit=1,sort=nearest,distance=..2] at @s run data merge entity @s {CustomName:"{\"text\":\"Earth Mage\"}",Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"coarse_dirt",Count:4},sell:{id:"minecraft:knowledge_book",tag:{Recipes:[],isSpell:1b,spellID:2,display:{Name:"{\"text\":\"Terraform Spell Book\",\"italic\":\"false\"}",Lore:["Right-click to use","Costs 3 mana"]},Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:1},Count:1}}]},VillagerData:{profession:"minecraft:librarian",level:5}}
 execute as @e[tag=msbv2xrvwdm] at @s as @e[type=villager,limit=1,sort=nearest,distance=..2] at @s run data merge entity @s {CustomName:"{\"text\":\"Dark Mage\"}",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"ender_eye",Count:1},sell:{id:"minecraft:knowledge_book",tag:{Recipes:[],isSpell:1b,spellID:7,display:{Name:"{\"text\":\"Lurid Explosion Spell Book\",\"italic\":\"false\"}",Lore:["Right-click to use","Costs 4 mana"]},Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:1},Count:1}}]},VillagerData:{profession:"minecraft:librarian",level:5}}
 execute as @e[tag=msbv2xrvwam] at @s as @e[type=villager,limit=1,sort=nearest,distance=..2] at @s run data merge entity @s {CustomName:"{\"text\":\"Air Mage\"}",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"feather",Count:8},sell:{id:"minecraft:knowledge_book",tag:{Recipes:[],isSpell:1b,spellID:10,display:{Name:"{\"text\":\"Updraft Spell Book\",\"italic\":\"false\"}",Lore:["Right-click to use","Costs 2 mana"]},Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:1},Count:1}}]},VillagerData:{profession:"minecraft:librarian",level:5}}
@@ -23,5 +23,5 @@ execute as @e[tag=msbv2xrvwlm] at @s as @e[type=villager,limit=1,sort=nearest,di
 execute as @e[tag=msbv2xrvwwm] at @s as @e[type=villager,limit=1,sort=nearest,distance=..2] at @s run data merge entity @s {CustomName:"{\"text\":\"Water Mage\"}",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",Count:8},buyB:{id:"prismarine_crystals",Count:1},sell:{id:"minecraft:knowledge_book",tag:{Recipes:[],isSpell:1b,spellID:15,display:{Name:"{\"text\":\"Respiration Spell Book\",\"italic\":\"false\"}",Lore:["Right-click to use","Costs 7 mana"]},Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:1},Count:1}}]},VillagerData:{profession:"minecraft:librarian",level:5}}
 execute as @e[tag=msbv2xrvwpm] at @s as @e[type=villager,limit=1,sort=nearest,distance=..2] at @s run data merge entity @s {CustomName:"{\"text\":\"Alchemist\"}",Profession:1,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"minecraft:emerald",Count:2},buyB:{id:"glistering_melon_slice",Count:2},sell:{id:"minecraft:potion",tag:{manaPotion:1b,isSpell:1b,display:{Name:"{\"text\":\"Potion of Mana\",\"italic\":\"false\"}",Lore:["Drink to restore 6 mana points"]},Potion:"water",Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:33,CustomPotionColor:102},Count:1}},{buy:{id:"minecraft:emerald",Count:2},buyB:{id:"glistering_melon_slice",Count:2},sell:{id:"minecraft:splash_potion",tag:{splashManaPotion:1b,isSpell:1b,display:{Name:"{\"text\":\"Splash Potion of Mana\",\"italic\":\"false\"}",Lore:["Throw to restore 3 mana points"]},Potion:"water",Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:33,CustomPotionColor:102},Count:1}}]},VillagerData:{profession:"minecraft:cleric",level:5}}
 
-#Reset
+# Reset
 kill @e[tag=msbv2xrvwm]

@@ -36,6 +36,7 @@
         "minecraft:item_frame",
         "minecraft:leash_knot",
         "minecraft:lightning_bolt",
-        "minecraft:painting"
+        "minecraft:painting",
+        "minecraft:marker"
     ]
 }

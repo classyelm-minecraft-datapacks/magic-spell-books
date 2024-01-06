@@ -1,2 +1,2 @@
-#Gust Spell Book
+# Gust Spell Book
 tag @s add MSBv2xGS4

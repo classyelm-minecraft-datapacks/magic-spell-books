@@ -1,4 +1,4 @@
-#Fill a 3x3x3 area with hole in center
+# Fill a 3x3x3 area with hole in center
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:air
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace #minecraft:dirt
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:dirt_path
@@ -10,7 +10,7 @@ execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecr
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:sugar_cane
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:nether_wart
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:cactus
-execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:grass
+execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:short_grass
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:tall_grass
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:fern
 execute at @s run fill ~-1 ~-1 ~-1 ~1 ~3 ~1 minecraft:coarse_dirt replace minecraft:large_fern

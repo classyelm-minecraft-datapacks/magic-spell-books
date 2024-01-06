@@ -1,4 +1,4 @@
-#List of all items
+# List of all items
 function classyelm_magic_spell_books:give/spawn_egg/air_mage
 function classyelm_magic_spell_books:give/spawn_egg/dark_mage
 function classyelm_magic_spell_books:give/spawn_egg/earth_mage

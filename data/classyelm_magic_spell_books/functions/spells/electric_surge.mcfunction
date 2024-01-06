@@ -1,5 +1,8 @@
-#Electric Surge Spell Effects
-execute as @s[scores={msbv2xmp=5..}] at @e[type=!#classyelm_magic_spell_books:nonmob-entities,distance=1..8,limit=1] run summon lightning_bolt
-tag @s[scores={msbv2xmp=..4}] add MSBv2xIM
-playsound entity.iron_golem.hurt player @s[scores={msbv2xmp=5..}] ~ ~ ~ 100 2
-scoreboard players remove @s[scores={msbv2xmp=5..}] msbv2xmp 5
+# Electric Surge Spell Effects
+tag @s add msbv2xessu
+execute if entity @s run summon minecraft:marker ^ ^ ^2 {Tags:["msbv2xessm"]}
+execute at @e[tag=msbv2xessm,sort=nearest,limit=1] at @e[type=!#classyelm_magic_spell_books:nonmob-entities,tag=!msbv2xessu,distance=..8,sort=nearest,limit=1] run summon minecraft:lightning_bolt
+kill @e[tag=msbv2xessm,sort=nearest,limit=1]
+playsound entity.iron_golem.hurt player @s ~ ~ ~ 100 2
+scoreboard players remove @s msbv2xmp 5
+tag @s remove msbv2xessu

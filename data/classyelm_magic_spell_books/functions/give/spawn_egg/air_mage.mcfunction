@@ -1,2 +1,2 @@
-#Give Air Mage Spawn Egg
+# Give Air Mage Spawn Egg
 give @s villager_spawn_egg{display:{Name:"{\"text\":\"Spawn Air Mage\",\"italic\":\"false\"}"},EntityTag:{id:villager,CustomName:"{\"text\":\"Air Mage\"}",Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"iron_ingot",Count:8},buyB:{id:"feather",Count:8},sell:{id:"knowledge_book",Count:1,tag:{Recipes:[],isSpell:1b,spellID:10,display:{Name:"{\"text\":\"Updraft Spell Book\",\"italic\":\"false\"}",Lore:["Right-click to use","Costs 2 mana"]},Enchantments:[{id:protection,lvl:0s}],HideFlags:1}}}]},VillagerData:{profession:"minecraft:librarian",level:5}}}

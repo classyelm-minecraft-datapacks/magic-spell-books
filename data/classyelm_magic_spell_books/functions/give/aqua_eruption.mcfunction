@@ -1,2 +1,2 @@
-#Aqua Eruption Spell Book
+# Aqua Eruption Spell Book
 tag @s add MSBv2xGS14
