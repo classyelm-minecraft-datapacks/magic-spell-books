@@ -1,12 +1,34 @@
 # Gust Spell Effects
 
-execute if entity @s[scores={msbv2xmp=3..}] run summon minecraft:armor_stand ^ ^ ^4 {NoGravity:1,Invulnerable:1,Marker:1,Invisible:1,Tags:["msbv2xkte","msbv2xgsm","msbv2xgsie"]}
-execute if entity @s[scores={msbv2xmp=3..}] as @e[tag=msbv2xgsm,sort=nearest,limit=1] at @s as @e[type=!#classyelm_magic_spell_books:nonmob-entities,tag=!msbv2xgsie,distance=..3,sort=nearest,limit=3] at @s run summon minecraft:creeper ~ ~ ~ {NoAI:1,Invulnerable:1,ExplosionRadius:-1b,Silent:1,Fuse:7,ignited:1,ActiveEffects:[{Id:14,Amplifier:0,Duration:10,ShowParticles:0b}],Tags:["msbv2xcgm","msbv2xgsie"]}
-execute if entity @s[scores={msbv2xmp=3..}] as @e[tag=msbv2xgsm,sort=nearest,limit=1] at @s as @e[tag=msbv2xcgm,distance=..3,limit=5] at @s run teleport @s ~ ~ ~ facing entity @p[tag=MSBv2xHS,scores={msbv2xhsid=4,msbv2xrcd=1..}]
-execute if entity @s[scores={msbv2xmp=3..}] as @e[tag=msbv2xgsm,sort=nearest,limit=1] at @s as @e[tag=msbv2xcgm,distance=..3,limit=5] at @s run teleport @s ^ ^ ^0.5
-execute if entity @s[scores={msbv2xmp=3..}] run schedule function classyelm_magic_spell_books:spells/gust_cleanup 10t
+tag @s[tag=MSBv2xHS,scores={msbv2xhsid=4,msbv2xrcd=1..,msbv2xmp=3..}] add msbv2xgsu
+
+execute if entity @s[tag=msbv2xgsu] run summon minecraft:marker ^ ^ ^1 {Tags:["msbv2xgsm"]}
+execute if entity @s[tag=msbv2xgsu] run summon minecraft:armor_stand ^ ^ ^1 {Tags:["msbv2xkte","msbv2xkol","msbv2xgspe","msbv2xgst"],Invulnerable:1,Invisible:1}
+scoreboard players set @e[tag=msbv2xgspe,sort=nearest,limit=1] msbv2xmkt 20
+
+execute if entity @s[tag=msbv2xgsu] store result score @s msbv2xsx run data get entity @s Pos[0] 50
+execute if entity @s[tag=msbv2xgsu] store result score @s msbv2xsy run data get entity @s Pos[1] 50
+execute if entity @s[tag=msbv2xgsu] store result score @s msbv2xsz run data get entity @s Pos[2] 50
+execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgsm,sort=nearest,limit=1] store result score @s msbv2xsx run data get entity @s Pos[0] 50
+execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgsm,sort=nearest,limit=1] store result score @s msbv2xsy run data get entity @s Pos[1] 50
+execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgsm,sort=nearest,limit=1] store result score @s msbv2xsz run data get entity @s Pos[2] 50
+execute if entity @s[tag=msbv2xgsu] run scoreboard players operation @s msbv2xsx -= @e[tag=msbv2xgsm,sort=nearest,limit=1] msbv2xsx
+execute if entity @s[tag=msbv2xgsu] run scoreboard players operation @s msbv2xsy -= @e[tag=msbv2xgsm,sort=nearest,limit=1] msbv2xsy
+execute if entity @s[tag=msbv2xgsu] run scoreboard players operation @s msbv2xsz -= @e[tag=msbv2xgsm,sort=nearest,limit=1] msbv2xsz
+execute if entity @s[tag=msbv2xgsu] run scoreboard players operation @s msbv2xsx *= #negativeone msbv2xsx
+execute if entity @s[tag=msbv2xgsu] run scoreboard players operation @s msbv2xsy *= #negativeone msbv2xsx
+execute if entity @s[tag=msbv2xgsu] run scoreboard players operation @s msbv2xsz *= #negativeone msbv2xsx
+execute if entity @s[tag=msbv2xgsu,scores={msbv2xsy=40..}] run scoreboard players set @s msbv2xsy 40
+execute if entity @s[tag=msbv2xgsu] run kill @e[tag=msbv2xgsm,sort=nearest,limit=1]
+
+execute if entity @s[tag=msbv2xgsu] positioned ^ ^ ^4 as @e[type=!#classyelm_magic_spell_books:nonmob-entities,tag=!msbv2xgsu,distance=..4] run tag @s add msbv2xgst
+execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgst] store result entity @s Motion[0] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsx
+execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgst] store result entity @s Motion[1] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsy
+execute if entity @s[tag=msbv2xgsu] as @e[tag=msbv2xgst] store result entity @s Motion[2] double 0.03 run scoreboard players get @p[tag=msbv2xgsu] msbv2xsz
+tag @e[tag=msbv2xgst] remove msbv2xgst
 
 tag @s[scores={msbv2xmp=..2}] add MSBv2xIM
-playsound entity.bat.takeoff player @s[scores={msbv2xmp=3..}] ~ ~ ~ 100 0
-tag @s[scores={msbv2xmp=3..}] add MSBv2xAGS
-scoreboard players remove @s[scores={msbv2xmp=3..}] msbv2xmp 3
+playsound entity.bat.takeoff player @s[tag=msbv2xgsu] ~ ~ ~ 100 0
+tag @s[tag=msbv2xgsu] add MSBv2xAGS
+scoreboard players remove @s[tag=msbv2xgsu] msbv2xmp 3
+tag @s[tag=msbv2xgsu] remove msbv2xgsu

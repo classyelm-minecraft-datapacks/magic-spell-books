@@ -71,5 +71,6 @@ tag @s remove MSBv2xHS
 tag @s[nbt={SelectedItem:{tag:{isSpell:1b}}}] add MSBv2xHS
 
 # Increment kill timer for marked entities (kill after 5 seconds as failsafe)
-scoreboard players add @e[tag=msbv2xkte] msbv2xmkt 1
-kill @e[tag=msbv2xkte,scores={msbv2xmkt=100..}]
+scoreboard players remove @e[tag=msbv2xkte] msbv2xmkt 1
+kill @e[tag=msbv2xkte,scores={msbv2xmkt=..0}]
+kill @e[tag=msbv2xkol,nbt={OnGround:1b}]

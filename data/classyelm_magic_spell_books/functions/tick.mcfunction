@@ -49,3 +49,7 @@ tag @a[tag=!msbv2xgm] add msbv2xgm
 #gsie = gust spell ignored entity
 #fsm = fireball spell marker
 #fsf = fireball spell fireball (projectile)
+#gsm = gust spell marker
+#gsu = gust spell user
+#gspe = gust spell particle effect
+#gst = gust spell target
