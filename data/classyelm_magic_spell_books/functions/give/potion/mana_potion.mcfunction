@@ -1,2 +1,2 @@
 # Give Mana Potion
-give @s potion{manaPotion:1b,isSpell:1b,display:{Name:"{\"text\":\"Potion of Mana\",\"italic\":\"false\"}",Lore:["Drink to restore 6 mana points"]},Potion:"water",Enchantments:[{id:protection,lvl:0}],HideFlags:33,CustomPotionColor:102}
+give @s potion{manaPotion:1b,isSpell:1b,display:{Name:"{\"text\":\"Potion of Mana\",\"italic\":false}",Lore:["Drink to restore 6 mana points"]},Potion:"minecraft:mundane",Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:33,CustomPotionColor:102}
