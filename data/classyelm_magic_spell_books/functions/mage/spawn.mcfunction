@@ -1,11 +1,11 @@
 # Check New Villagers and Replace Percentage with Mage
-tag @e[type=villager,tag=!msbv2xvhbc,distance=..25,nbt={Age:0}] add msbv2xvntbc
+tag @e[type=minecraft:villager,tag=!msbv2xvhbc,distance=..25,nbt={Age:0,VillagerData:{level:1},Xp:0}] add msbv2xvntbc
 execute as @e[tag=msbv2xvntbc] as @s[tag=!msbv2xvhbc] at @s run loot spawn ~ ~ ~ loot classyelm_magic_spell_books:classyelm_magic_spell_books_rng/1-100
 execute as @e[tag=msbv2xvntbc] run tag @s[tag=!msbv2xvhbc] add msbv2xvhbc
 kill @e[type=minecraft:bat,tag=msbv2xvrng]
 
 # Detect Random Mage Type
-tag @e[type=item,nbt={Item:{tag:{spawnMage:1b}}}] add msbv2xrvwm
+tag @e[type=minecraft:item,nbt={Item:{tag:{spawnMage:1b}}}] add msbv2xrvwm
 tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"earth"}}}] add msbv2xrvwem
 tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"dark"}}}] add msbv2xrvwdm
 tag @e[tag=msbv2xrvwm,nbt={Item:{tag:{mageType:"air"}}}] add msbv2xrvwam
