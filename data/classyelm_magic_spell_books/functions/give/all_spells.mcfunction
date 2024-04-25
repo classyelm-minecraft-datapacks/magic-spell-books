@@ -1,19 +1,19 @@
 # List of all items
-tag @s add MSBv2xGS0
-tag @s add MSBv2xGS1
-tag @s add MSBv2xGS2
-tag @s add MSBv2xGS3
-tag @s add MSBv2xGS4
-tag @s add MSBv2xGS5
-tag @s add MSBv2xGS6
-tag @s add MSBv2xGS7
-tag @s add MSBv2xGS8
-tag @s add MSBv2xGS9
-tag @s add MSBv2xGS10
-tag @s add MSBv2xGS11
-tag @s add MSBv2xGS12
-tag @s add MSBv2xGS13
-tag @s add MSBv2xGS14
-tag @s add MSBv2xGS15
-tag @s add MSBv2xGS16
-tag @s add MSBv2xGS17
+function classyelm_magic_spell_books:give/spell/aqua_eruption
+function classyelm_magic_spell_books:give/spell/celerity_cloak
+function classyelm_magic_spell_books:give/spell/cosmic_matter
+function classyelm_magic_spell_books:give/spell/dark_orb
+function classyelm_magic_spell_books:give/spell/dirt_obstruction
+function classyelm_magic_spell_books:give/spell/electric_surge
+function classyelm_magic_spell_books:give/spell/fire_blast
+function classyelm_magic_spell_books:give/spell/fireball
+function classyelm_magic_spell_books:give/spell/flame_ring
+function classyelm_magic_spell_books:give/spell/gust
+function classyelm_magic_spell_books:give/spell/hurricane
+function classyelm_magic_spell_books:give/spell/ice_shackle
+function classyelm_magic_spell_books:give/spell/luminosity
+function classyelm_magic_spell_books:give/spell/lurid_explosion
+function classyelm_magic_spell_books:give/spell/reprisal
+function classyelm_magic_spell_books:give/spell/respiration
+function classyelm_magic_spell_books:give/spell/terraform
+function classyelm_magic_spell_books:give/spell/updraft

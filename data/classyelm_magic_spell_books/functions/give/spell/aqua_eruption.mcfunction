@@ -1,0 +1,2 @@
+# Aqua Eruption Spell Book
+give @s minecraft:knowledge_book[minecraft:item_name="'Aqua Eruption Spell Book'",minecraft:lore=["{\"text\":\"Costs 8 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"aqua_eruption"}]

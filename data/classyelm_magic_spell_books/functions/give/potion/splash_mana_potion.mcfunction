@@ -1,2 +1,2 @@
 # Give Splash Mana Potion
-give @s minecraft:splash_potion{splashManaPotion:1b,isSpell:1b,display:{Name:"{\"text\":\"Splash Potion of Mana\",\"italic\":false}",Lore:["Throw to restore 3 mana points"]},Potion:"minecraft:mundane",Enchantments:[{id:"minecraft:protection",lvl:0}],HideFlags:33,CustomPotionColor:102}
+give @s minecraft:splash_potion[minecraft:potion_contents={potion:"minecraft:mundane",custom_color:102},minecraft:item_name="'Splash Potion of Mana'",minecraft:rarity="epic",minecraft:lore=["{\"text\":\"Throw to restore 3 mana points\",\"color\":\"gray\",\"italic\":false}"],minecraft:enchantment_glint_override=true,minecraft:hide_additional_tooltip={},minecraft:custom_data={splashManaPotion:true,isSpell:true}]

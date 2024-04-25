@@ -21,6 +21,8 @@ scoreboard objectives add msbv2xsx dummy
 scoreboard objectives add msbv2xsy dummy
 scoreboard objectives add msbv2xsz dummy
 scoreboard players set #negativeone msbv2xsx -1
+# RNG container objective
+scoreboard objectives add msbv2xrngc dummy
 
 # Give creative mode players manual on load/reload of datapack
 tag @a remove msbv2xgm

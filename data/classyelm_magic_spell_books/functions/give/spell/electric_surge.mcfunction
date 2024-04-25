@@ -1,0 +1,2 @@
+# Electric Surge Spell Book
+give @s minecraft:knowledge_book[minecraft:item_name="'Electric Surge Spell Book'",minecraft:lore=["{\"text\":\"Costs 5 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"electric_surge"}]
