@@ -1,7 +1,6 @@
 # This will cancel the uninstall prompt
 tag @a remove msbv2xhcab
 tag @a remove msbv2xgm
-scoreboard objectives remove msbv2xrcd
 scoreboard objectives remove msbv2xmp
 scoreboard objectives remove msbv2xmrt
 scoreboard objectives remove msbv2xhsid

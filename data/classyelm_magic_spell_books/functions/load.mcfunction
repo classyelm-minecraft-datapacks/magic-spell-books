@@ -1,5 +1,4 @@
 # Initializes the datapack
-scoreboard objectives add msbv2xrcd minecraft.used:minecraft.knowledge_book
 # Mana Points
 scoreboard objectives add msbv2xmp dummy
 # Mana Regen Timer
