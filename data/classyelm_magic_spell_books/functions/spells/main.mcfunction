@@ -56,40 +56,17 @@ execute as @e[type=minecraft:interaction,tag=msbv2xrcdi,sort=nearest,limit=1] on
 execute as @e[type=minecraft:interaction,tag=msbv2xrcdi,sort=nearest,limit=1] on target if entity @s[scores={msbv2xhsid=17,msbv2xmp=..5}] run tag @s add msbv2xim
 execute as @e[type=minecraft:interaction,tag=msbv2xrcdi,sort=nearest,limit=1] on target if entity @s[scores={msbv2xhsid=17,msbv2xmp=6..}] run function classyelm_magic_spell_books:spells/dark_orb
 
+# Cleanup interaction entity used for right-click detection
+kill @e[type=minecraft:interaction,tag=msbv2xrcdi]
+
+# Determine if player is holding spell book
+tag @s remove MSBv2xHS
+execute if items entity @s weapon.* minecraft:knowledge_book[minecraft:custom_data~{isSpell:true}] run tag @s add MSBv2xHS
+execute if entity @s[tag=MSBv2xHS] unless entity @e[type=minecraft:interaction,tag=msbv2xrcdi,distance=..2,sort=nearest,limit=1] run summon minecraft:interaction ~ ~1 ~ {Tags:["msbv2xrcdi"],width:1.5,height:1.5}
+
 # Play Insufficient Mana Sounds
 execute if entity @s[tag=msbv2xim] run playsound entity.bat.loop player @s ~ ~ ~ 100 2
 tag @s remove msbv2xim
 
-# Identify which spell is being used and return that spell to players not in creative mode
-tag @s[gamemode=!creative,scores={msbv2xhsid=1,msbv2xrcd=1..}] add MSBv2xGS1
-tag @s[gamemode=!creative,scores={msbv2xhsid=2,msbv2xrcd=1..}] add MSBv2xGS2
-tag @s[gamemode=!creative,scores={msbv2xhsid=3,msbv2xrcd=1..}] add MSBv2xGS3
-tag @s[gamemode=!creative,scores={msbv2xhsid=4,msbv2xrcd=1..}] add MSBv2xGS4
-tag @s[gamemode=!creative,scores={msbv2xhsid=5,msbv2xrcd=1..}] add MSBv2xGS5
-tag @s[gamemode=!creative,scores={msbv2xhsid=6,msbv2xrcd=1..}] add MSBv2xGS6
-tag @s[gamemode=!creative,scores={msbv2xhsid=7,msbv2xrcd=1..}] add MSBv2xGS7
-tag @s[gamemode=!creative,scores={msbv2xhsid=8,msbv2xrcd=1..}] add MSBv2xGS8
-tag @s[gamemode=!creative,scores={msbv2xhsid=9,msbv2xrcd=1..}] add MSBv2xGS9
-tag @s[gamemode=!creative,scores={msbv2xhsid=10,msbv2xrcd=1..}] add MSBv2xGS10
-tag @s[gamemode=!creative,scores={msbv2xhsid=11,msbv2xrcd=1..}] add MSBv2xGS11
-tag @s[gamemode=!creative,scores={msbv2xhsid=12,msbv2xrcd=1..}] add MSBv2xGS12
-tag @s[gamemode=!creative,scores={msbv2xhsid=13,msbv2xrcd=1..}] add MSBv2xGS13
-tag @s[gamemode=!creative,scores={msbv2xhsid=14,msbv2xrcd=1..}] add MSBv2xGS14
-tag @s[gamemode=!creative,scores={msbv2xhsid=15,msbv2xrcd=1..}] add MSBv2xGS15
-tag @s[gamemode=!creative,scores={msbv2xhsid=16,msbv2xrcd=1..}] add MSBv2xGS16
-tag @s[gamemode=!creative,scores={msbv2xhsid=17,msbv2xrcd=1..}] add MSBv2xGS17
-scoreboard players remove @s[scores={msbv2xrcd=1..}] msbv2xrcd 1
-
 # Spell Effect Extra Actions
 function classyelm_magic_spell_books:spells/spell_effects
-
-# Determine if player is holding spell book
-execute if entity @s[tag=MSBv2xHS] run kill @e[type=minecraft:interaction,tag=msbv2xrcdi,sort=nearest,limit=1]
-tag @s remove MSBv2xHS
-execute if items entity @s weapon.* minecraft:knowledge_book[minecraft:custom_data~{isSpell:true}] run tag @s add MSBv2xHS
-execute if entity @s[tag=MSBv2xHS] run summon minecraft:interaction ~ ~1 ~ {Tags:["msbv2xrcdi"]}
-
-# Increment kill timer for marked entities
-scoreboard players remove @e[tag=msbv2xkte] msbv2xmkt 1
-kill @e[tag=msbv2xkte,scores={msbv2xmkt=..0}]
-kill @e[tag=msbv2xkol,nbt={OnGround:1b}]

@@ -8,6 +8,11 @@ execute as @a at @s run function classyelm_magic_spell_books:potion/use_detectio
 execute as @a[scores={msbv2xpd=1..}] at @s run function classyelm_magic_spell_books:player/reset_mana_points
 execute as @a at @s run function classyelm_magic_spell_books:player/check_movement_fireballs
 
+# Increment kill timer for marked entities
+scoreboard players remove @e[tag=msbv2xkte] msbv2xmkt 1
+kill @e[tag=msbv2xkte,scores={msbv2xmkt=..0}]
+kill @e[tag=msbv2xkol,nbt={OnGround:1b}]
+
 # Give Manual to new users
 execute as @a[gamemode=creative,tag=!msbv2xgm] at @s run function classyelm_magic_spell_books:give/manual
 tag @a[tag=!msbv2xgm] add msbv2xgm
