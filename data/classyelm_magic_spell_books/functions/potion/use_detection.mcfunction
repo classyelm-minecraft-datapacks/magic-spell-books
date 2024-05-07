@@ -12,10 +12,10 @@ scoreboard players set @s[scores={msbv2xdp=1..}] msbv2xdp 0
 
 # Mana Potion
 tag @s remove msbv2xhmp
-tag @s[nbt={SelectedItem:{tag:{manaPotion:1b}}}] add msbv2xhmp
+tag @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{manaPotion:true}}}}] add msbv2xhmp
 
 # Splash Mana Potion
-tag @e[type=minecraft:potion,nbt={Item:{tag:{splashManaPotion:1b}}}] add msbv2xsmp
+tag @e[type=minecraft:potion,nbt={Item:{components:{"minecraft:custom_data":{splashManaPotion:true}}}}] add msbv2xsmp
 tag @e[tag=msbv2xsmp] add msbv2xusmp
 execute as @e[tag=msbv2xsmp] at @s if block ~ ~-0.6 ~ air run tag @s remove msbv2xusmp
 execute at @e[tag=msbv2xsmp] as @s if entity @p[distance=0.3..] run tag @s remove msbv2xusmp

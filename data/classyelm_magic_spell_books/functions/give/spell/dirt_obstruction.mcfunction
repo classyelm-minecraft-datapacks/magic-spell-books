@@ -1,2 +1,2 @@
 # Dirt Obstruction Spell Book
-give @s minecraft:knowledge_book[minecraft:item_name="'Dirt Obstruction Spell Book'",minecraft:lore=["{\"text\":\"Costs 3 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"dirt_obstruction"}]
+give @s minecraft:knowledge_book[minecraft:item_name="'Dirt Obstruction Spell Book'",minecraft:lore=["{\"text\":\"Costs 3 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:recipes=["minecraft:stick"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"dirt_obstruction"}]

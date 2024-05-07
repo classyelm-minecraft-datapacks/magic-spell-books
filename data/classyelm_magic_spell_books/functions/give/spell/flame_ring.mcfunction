@@ -1,2 +1,2 @@
 # Flame Ring Spell Book
-give @s minecraft:knowledge_book[minecraft:item_name="'Flame Ring Spell Book'",minecraft:lore=["{\"text\":\"Costs 1 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"flame_ring"}]
+give @s minecraft:knowledge_book[minecraft:item_name="'Flame Ring Spell Book'",minecraft:lore=["{\"text\":\"Costs 1 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:recipes=["minecraft:stick"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"flame_ring"}]

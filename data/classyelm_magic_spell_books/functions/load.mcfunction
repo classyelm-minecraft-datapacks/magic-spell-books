@@ -1,4 +1,6 @@
 # Initializes the datapack
+# Knowledge Book Use Detection
+scoreboard objectives add msbv2xukb minecraft.used:minecraft.knowledge_book
 # Mana Points
 scoreboard objectives add msbv2xmp dummy
 # Mana Regen Timer

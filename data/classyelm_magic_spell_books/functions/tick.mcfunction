@@ -74,3 +74,4 @@ tag @a[tag=!msbv2xgm] add msbv2xgm
 # rsb = replacing spell book
 # rcdi = right-click detection interactor (entity)
 # uus = use updraft spell
+# ukb = use knowledge book

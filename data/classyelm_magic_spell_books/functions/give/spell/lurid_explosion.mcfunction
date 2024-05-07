@@ -1,2 +1,2 @@
 # Lurid Explosion Spell Book
-give @s minecraft:knowledge_book[minecraft:item_name="'Lurid Explosion Spell Book'",minecraft:lore=["{\"text\":\"Costs 4 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"lurid_explosion"}]
+give @s minecraft:knowledge_book[minecraft:item_name="'Lurid Explosion Spell Book'",minecraft:lore=["{\"text\":\"Costs 4 mana\",\"color\":\"gray\",\"italic\":false}"],minecraft:recipes=["minecraft:stick"],minecraft:enchantment_glint_override=true,minecraft:custom_data={isSpell:true,spellId:"lurid_explosion"}]
