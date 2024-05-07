@@ -73,3 +73,4 @@ tag @a[tag=!msbv2xgm] add msbv2xgm
 # vsam = villager selected as mage
 # rsb = replacing spell book
 # rcdi = right-click detection interactor (entity)
+# uus = use updraft spell

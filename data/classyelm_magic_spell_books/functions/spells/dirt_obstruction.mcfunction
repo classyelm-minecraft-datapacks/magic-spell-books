@@ -32,6 +32,7 @@ execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:cod,dist
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:pufferfish,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:salmon,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:tropical_fish,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
+execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:armadillo,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[tag=msbv2xsize0,distance=..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
 
 # 3x4x3 Entities

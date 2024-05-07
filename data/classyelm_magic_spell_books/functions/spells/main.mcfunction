@@ -57,12 +57,12 @@ execute as @e[type=minecraft:interaction,tag=msbv2xrcdi,sort=nearest,limit=1] on
 execute as @e[type=minecraft:interaction,tag=msbv2xrcdi,sort=nearest,limit=1] on target if entity @s[scores={msbv2xhsid=17,msbv2xmp=6..}] run function classyelm_magic_spell_books:spells/dark_orb
 
 # Cleanup interaction entity used for right-click detection
-kill @e[type=minecraft:interaction,tag=msbv2xrcdi]
+kill @e[type=minecraft:interaction,tag=msbv2xrcdi,sort=nearest,limit=1]
 
 # Determine if player is holding spell book
 tag @s remove MSBv2xHS
 execute if items entity @s weapon.* minecraft:knowledge_book[minecraft:custom_data~{isSpell:true}] run tag @s add MSBv2xHS
-execute if entity @s[tag=MSBv2xHS] unless entity @e[type=minecraft:interaction,tag=msbv2xrcdi,distance=..2,sort=nearest,limit=1] run summon minecraft:interaction ~ ~1 ~ {Tags:["msbv2xrcdi"],width:1.5,height:1.5}
+execute if entity @s[tag=MSBv2xHS] run summon minecraft:interaction ~ ~1 ~ {Tags:["msbv2xrcdi"],width:1.5,height:1.5}
 
 # Play Insufficient Mana Sounds
 execute if entity @s[tag=msbv2xim] run playsound entity.bat.loop player @s ~ ~ ~ 100 2
