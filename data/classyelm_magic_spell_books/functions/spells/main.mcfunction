@@ -1,23 +1,3 @@
-# Determine which spell to activate
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"fireball"}}}}] msbv2xhsid 0
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"luminosity"}}}}] msbv2xhsid 1
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"terraform"}}}}] msbv2xhsid 2
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"reprisal"}}}}] msbv2xhsid 3
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"gust"}}}}] msbv2xhsid 4
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"flame_ring"}}}}] msbv2xhsid 5
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"ice_shackle"}}}}] msbv2xhsid 6
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"lurid_explosion"}}}}] msbv2xhsid 7
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"celerity_cloak"}}}}] msbv2xhsid 8
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"cosmic_matter"}}}}] msbv2xhsid 9
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"updraft"}}}}] msbv2xhsid 10
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"electric_surge"}}}}] msbv2xhsid 11
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"hurricane"}}}}] msbv2xhsid 12
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"fire_blast"}}}}] msbv2xhsid 13
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"aqua_eruption"}}}}] msbv2xhsid 14
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"respiration"}}}}] msbv2xhsid 15
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"dirt_obstruction"}}}}] msbv2xhsid 16
-scoreboard players set @s[nbt={SelectedItem:{components:{"minecraft:custom_data":{spellId:"dark_orb"}}}}] msbv2xhsid 17
-
 # Run Magic Effects
 execute if entity @s[scores={msbv2xukb=1..,msbv2xhsid=0,msbv2xmp=..3}] run tag @s add msbv2xim
 execute if entity @s[scores={msbv2xukb=1..,msbv2xhsid=0,msbv2xmp=4..}] run function classyelm_magic_spell_books:spells/fireball
@@ -56,6 +36,44 @@ execute if entity @s[scores={msbv2xukb=1..,msbv2xhsid=16,msbv2xmp=3..}] run func
 execute if entity @s[scores={msbv2xukb=1..,msbv2xhsid=17,msbv2xmp=..5}] run tag @s add msbv2xim
 execute if entity @s[scores={msbv2xukb=1..,msbv2xhsid=17,msbv2xmp=6..}] run function classyelm_magic_spell_books:spells/dark_orb
 scoreboard players remove @s[scores={msbv2xukb=1..}] msbv2xukb 1
+
+# Determine which spell to activate (separated by offhand and mainhand to prioritize mainhand)
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"fireball"}] run scoreboard players set @s msbv2xhsid 0
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"luminosity"}] run scoreboard players set @s msbv2xhsid 1
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"terraform"}] run scoreboard players set @s msbv2xhsid 2
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"reprisal"}] run scoreboard players set @s msbv2xhsid 3
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"gust"}] run scoreboard players set @s msbv2xhsid 4
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"flame_ring"}] run scoreboard players set @s msbv2xhsid 5
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"ice_shackle"}] run scoreboard players set @s msbv2xhsid 6
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"lurid_explosion"}] run scoreboard players set @s msbv2xhsid 7
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"celerity_cloak"}] run scoreboard players set @s msbv2xhsid 8
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"cosmic_matter"}] run scoreboard players set @s msbv2xhsid 9
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"updraft"}] run scoreboard players set @s msbv2xhsid 10
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"electric_surge"}] run scoreboard players set @s msbv2xhsid 11
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"hurricane"}] run scoreboard players set @s msbv2xhsid 12
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"fire_blast"}] run scoreboard players set @s msbv2xhsid 13
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"aqua_eruption"}] run scoreboard players set @s msbv2xhsid 14
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"respiration"}] run scoreboard players set @s msbv2xhsid 15
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"dirt_obstruction"}] run scoreboard players set @s msbv2xhsid 16
+execute if items entity @s weapon.offhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"dark_orb"}] run scoreboard players set @s msbv2xhsid 17
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"fireball"}] run scoreboard players set @s msbv2xhsid 0
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"luminosity"}] run scoreboard players set @s msbv2xhsid 1
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"terraform"}] run scoreboard players set @s msbv2xhsid 2
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"reprisal"}] run scoreboard players set @s msbv2xhsid 3
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"gust"}] run scoreboard players set @s msbv2xhsid 4
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"flame_ring"}] run scoreboard players set @s msbv2xhsid 5
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"ice_shackle"}] run scoreboard players set @s msbv2xhsid 6
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"lurid_explosion"}] run scoreboard players set @s msbv2xhsid 7
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"celerity_cloak"}] run scoreboard players set @s msbv2xhsid 8
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"cosmic_matter"}] run scoreboard players set @s msbv2xhsid 9
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"updraft"}] run scoreboard players set @s msbv2xhsid 10
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"electric_surge"}] run scoreboard players set @s msbv2xhsid 11
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"hurricane"}] run scoreboard players set @s msbv2xhsid 12
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"fire_blast"}] run scoreboard players set @s msbv2xhsid 13
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"aqua_eruption"}] run scoreboard players set @s msbv2xhsid 14
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"respiration"}] run scoreboard players set @s msbv2xhsid 15
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"dirt_obstruction"}] run scoreboard players set @s msbv2xhsid 16
+execute if items entity @s weapon.mainhand minecraft:knowledge_book[minecraft:custom_data~{spellId:"dark_orb"}] run scoreboard players set @s msbv2xhsid 17
 
 # Determine if player is holding spell book
 tag @s remove MSBv2xHS
