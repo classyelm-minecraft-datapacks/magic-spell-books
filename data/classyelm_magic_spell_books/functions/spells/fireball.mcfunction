@@ -21,4 +21,5 @@ execute as @e[tag=msbv2xfsf,sort=nearest,limit=1] store result entity @s Motion[
 execute as @e[tag=msbv2xfsf,sort=nearest,limit=1] store result entity @s Motion[2] double 0.025 run scoreboard players get @p[tag=MSBv2xHS,scores={msbv2xhsid=0,msbv2xmp=4..}] msbv2xsz
 
 playsound entity.blaze.shoot player @s
+execute if entity @s[gamemode=!creative] run function classyelm_magic_spell_books:give/replace/fireball
 scoreboard players remove @s msbv2xmp 4

@@ -9,5 +9,6 @@ execute at @e[tag=msbv2xtst,sort=nearest,distance=..7,limit=1] run summon minecr
 
 tag @e[tag=msbv2xtst,sort=nearest,distance=..7,limit=1] remove msbv2xtst
 playsound entity.ender_dragon.shoot player @s ~ ~ ~ 100 0.5
+execute if entity @s[gamemode=!creative] run function classyelm_magic_spell_books:give/replace/dark_orb
 scoreboard players remove @s msbv2xmp 6
 tag @s remove msbv2xdo2su

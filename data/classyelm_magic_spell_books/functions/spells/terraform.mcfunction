@@ -16,5 +16,6 @@ execute as @e[tag=msbv2xtst,sort=nearest,limit=1] at @s run function classyelm_m
 execute as @e[tag=msbv2xtst,sort=nearest,limit=1] at @s run playsound block.grass.break player @a[distance=..5] ~ ~ ~ 100 0
 execute as @e[tag=msbv2xtst,sort=nearest,limit=1] at @s as @e[type=!#classyelm_magic_spell_books:nonmob-entities,tag=!msbv2xtsu,distance=..3] at @s run tp @s ~ ~8 ~
 execute run tag @e[tag=msbv2xtst,sort=nearest,limit=1] remove msbv2xtst
+execute if entity @s[gamemode=!creative] run function classyelm_magic_spell_books:give/replace/terraform
 scoreboard players remove @s msbv2xmp 3
 tag @s remove msbv2xtsu

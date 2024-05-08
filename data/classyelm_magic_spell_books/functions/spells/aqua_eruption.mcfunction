@@ -13,4 +13,5 @@ summon minecraft:falling_block ~ ~1 ~ {Time:1,BlockState:{Name:"minecraft:water"
 
 tag @s[scores={msbv2xmp=..7}] add msbv2xim
 playsound entity.elder_guardian.curse player @s ~ ~ ~ 100 0
+execute if entity @s[gamemode=!creative] run function classyelm_magic_spell_books:give/replace/aqua_eruption
 scoreboard players remove @s msbv2xmp 8

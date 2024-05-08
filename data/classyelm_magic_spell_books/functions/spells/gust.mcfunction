@@ -32,5 +32,6 @@ execute as @e[type=!minecraft:player,tag=msbv2xgst] store result entity @s Motio
 tag @e[tag=msbv2xgst] remove msbv2xgst
 
 playsound entity.bat.takeoff player @s ~ ~ ~ 100 0
+execute if entity @s[gamemode=!creative] run function classyelm_magic_spell_books:give/replace/gust
 scoreboard players remove @s msbv2xmp 3
 tag @s remove msbv2xgsu

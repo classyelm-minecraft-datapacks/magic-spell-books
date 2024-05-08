@@ -100,5 +100,6 @@ execute run tag @e[tag=msbv2xsize3,distance=..10] remove msbv2xsize3
 
 tag @s[scores={msbv2xmp=..2}] add msbv2xim
 playsound block.grass.place player @s ~ ~ ~ 100 0
+execute if entity @s[gamemode=!creative] run function classyelm_magic_spell_books:give/replace/dirt_obstruction
 scoreboard players remove @s msbv2xmp 3
 tag @s remove msbv2xdosu

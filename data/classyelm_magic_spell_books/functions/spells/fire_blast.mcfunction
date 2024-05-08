@@ -11,4 +11,5 @@ summon minecraft:small_fireball ~ ~2.2 ~ {power:[0d,0d,0d],Motion:[0d,2d,0d],Tag
 scoreboard players set @e[type=minecraft:fireball,tag=MSBv2xSE13,sort=nearest,limit=4] msbv2xmkt 60
 scoreboard players set @e[type=minecraft:small_fireball,tag=MSBv2xSE13,sort=nearest,limit=4] msbv2xmkt 60
 playsound entity.blaze.shoot player @s
+execute if entity @s[gamemode=!creative] run function classyelm_magic_spell_books:give/replace/fire_blast
 scoreboard players remove @s msbv2xmp 7
