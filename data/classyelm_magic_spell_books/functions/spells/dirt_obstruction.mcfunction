@@ -36,6 +36,7 @@ execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:armadill
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[tag=msbv2xsize0,distance=..10] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x3x3
 
 # 3x4x3 Entities
+execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:player,tag=!msbv2xdosu,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:blaze,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:cow,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
 execute at @e[tag=msbv2xdosm,sort=nearest,limit=1] as @e[type=minecraft:creeper,distance=..10,limit=1] at @s run function classyelm_magic_spell_books:fill/coarse_dirt_3x4x3
