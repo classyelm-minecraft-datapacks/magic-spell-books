@@ -3,7 +3,7 @@ tag @e[type=minecraft:villager,tag=!msbv2xvhbc,distance=..25,nbt={Age:0,Villager
 execute as @e[tag=msbv2xvntbc,tag=!msbv2xvhbc] store result score @s msbv2xrngc run random value 1..10
 
 # Detect Random Mage Type
-execute as @e[tag=msbv2xvntbc,tag=!msbv2xvhbc,scores={msbv2xrngc=1..10}] run tag @s add msbv2xvsam
+execute as @e[tag=msbv2xvntbc,tag=!msbv2xvhbc,scores={msbv2xrngc=1}] run tag @s add msbv2xvsam
 execute as @e[tag=msbv2xvsam] store result score @s msbv2xrngc run random value 1..7
 execute as @e[tag=msbv2xvsam,scores={msbv2xrngc=1}] run data merge entity @s {CustomName:"{\"text\":\"Earth Mage\"}",Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",count:8},buyB:{id:"coarse_dirt",count:4},sell:{id:"minecraft:knowledge_book",count:1,components:{"minecraft:item_name":"'Terraform Spell Book'","minecraft:lore":["{\"text\":\"Costs 3 mana\",\"color\":\"gray\",\"italic\":false}"],"minecraft:enchantment_glint_override":true,"minecraft:custom_data":{isSpell:true,spellId:"terraform"}}}}]},VillagerData:{profession:"minecraft:librarian",level:5}}
 execute as @e[tag=msbv2xvsam,scores={msbv2xrngc=2}] run data merge entity @s {CustomName:"{\"text\":\"Dark Mage\"}",Profession:2,Tags:["msbv2xvhbc","msbv2xmv"],Offers:{Recipes:[{buy:{id:"minecraft:iron_ingot",count:8},buyB:{id:"minecraft:ender_eye",count:1},sell:{id:"minecraft:knowledge_book",count:1,components:{"minecraft:item_name":"'Lurid Explosion Spell Book'","minecraft:lore":["{\"text\":\"Costs 4 mana\",\"color\":\"gray\",\"italic\":false}"],"minecraft:enchantment_glint_override":true,"minecraft:custom_data":{isSpell:true,spellId:"lurid_explosion"}}}}]},VillagerData:{profession:"minecraft:librarian",level:5}}
