@@ -75,3 +75,4 @@ tag @a[tag=!msbv2xgm] add msbv2xgm
 # rcdi = right-click detection interactor (entity)
 # uus = use updraft spell
 # ukb = use knowledge book
+# dodfm = dark orb dragon fireball marker
