@@ -17,5 +17,5 @@ scoreboard objectives remove msbv2xukb
 
 tellraw @a [{"text":"<Magic Spell Books>","color":"dark_red"},{"text":" Successfully removed objectives! Please note, the datapack files still in the world save. To finish the removal process, delete the datapack from this world save. Click ","color":"yellow"},{"text":"here","color":"blue","underlined":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/project/magic-spell-books-version-ii-function-command-creation/"}},{"text":" for more information.","color":"yellow"}]
 datapack disable "file/magic-spell-books"
-datapack disable "file/magic-spell-books-v1.8"
-datapack disable "file/magic-spell-books-v1.8.zip"
+datapack disable "file/magic-spell-books-v1.9"
+datapack disable "file/magic-spell-books-v1.9.zip"
